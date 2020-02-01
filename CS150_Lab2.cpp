@@ -26,12 +26,16 @@ int main()
 
     // Output the results for volume of the cylinder
     cout << "Volume of the cylinder = "
+         << fixed
+         << showpoint
          << setprecision(2)
          << PI * pow(radius, 2.0) * height
          << endl;
 
     // Output the results for surface area
     cout << "Surface area = "
+         << fixed
+         << showpoint
          << setprecision(2)
          << 2 * PI * radius * height + 2 * PI * pow(radius, 2.0)
          << endl;
